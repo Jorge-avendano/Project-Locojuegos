@@ -3,7 +3,7 @@
 ![Loco Juegos Banner](images/locojuegos-web.png)
 
 ## Descripción
-Loco Juegos es un proyecto académico del curso de diseño de interfaces de programación y trata de una página web para la venta de videojuegos de cuatro plataformas: PlayStation, Xbox, Nintendo y PC. Se desarrolló utilizando diversas herramientas y habilidades adquiridas durante el curso.
+Loco Juegos es un proyecto académico del curso de Diseño de Interfaces de programación que trata sobre una página web para la venta de videojuegos de cuatro plataformas: PlayStation, Xbox, Nintendo y PC. Se desarrolló utilizando diversas herramientas y habilidades adquiridas durante el curso.
 
 ## Instalación
 Para ejecutar el proyecto localmente, sigue estos pasos:
@@ -29,4 +29,4 @@ El proyecto utiliza las siguientes tecnologías:
 - **JavaScript**: Interactividad y funcionalidad dinámica.
 
 ## Créditos
-Desarrollado como parte del curso de Diseño de Interfaces de Software.
+Desarrollado como parte del curso de Diseño de Interfaces de Programación.
