@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayStation - Loco Juegos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../../css/index.css">
+    <link rel="icon" href="../../favicon.ico">
+</head>
+<body class="fondo-ps">
+    <header>
+        <nav class="navbar navbar-expand-sm bg-dark border-bottom border-body fixed-top" data-bs-theme="dark">
+            <a class="navbar-brand text-light ms-2 fs-5" href="../../index.html">
+                <img src="../../favicon.ico" alt="Logo" width="30" height="30" class="d-inline-block mb-1">
+                Loco Juegos
+            </a>
+            <button class="navbar-toggler me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start" id="navbarOffcanvasLg">
+                <div class="offcanvas-body p-1">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item"><a class="nav-link active" href="../../index.html">Inicio</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Catálogo</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./index.html">PlayStation</a></li>
+                                <li><a class="dropdown-item" href="../xbox/index.html">Xbox</a></li>
+                                <li><a class="dropdown-item" href="../nintendo/index.html">Nintendo</a></li>
+                                <li><a class="dropdown-item" href="../pc/index.html">PC</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="../../ofertas/index.html">Ofertas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../../contacto/index.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="container mt-5 pt-5">
+
+      <!-- Bienvenido -->
+      <section class="text-center text-light py-5" >
+        <div class="container my-5">
+          <h1 class="display-4 fw-bold">Explora el mundo de PlayStation</h1>
+          <p class="lead">Descubre los mejores títulos, ofertas y bundles exclusivos.</p>
+          <a href="#destacados" class="btn btn-outline-primary btn-lg">Ver Juegos</a>
+        </div>
+      </section>
+
+        <!-- Destacados -->
+        <section  class="mt-5">
+          <hr id="destacados" class="d-flex w-75 mx-auto  py-5">
+            <h2 class="text-center text-light mb-4">Juegos Destacados</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card bg-dark text-white">
+                      <img src="../../images/god-of-war-ragnarok.jpg" class="card-img-top  object-fit-cover h img-thumbnail" style="height: 300px;" alt="playstation-portada">
+                        <div class="card-body">
+                            <h5 class="card-title">God of War: Ragnarök</h5>
+                            <p class="card-text">Únete a Kratos y su hijo Atreus en God of War Ragnarök mientras se enfrentan a los dioses nórdicos y a los eventos del fin del mundo.
+                               Con un combate visceral, una historia emocional y un mundo vasto por explorar, prepárate para una épica batalla por el destino de los reinos.</p>
+                               <p class="fw-bold text-warning">S/ 152.90</p>
+                               <div class="card-footer d-flex justify-content-between align-items-center">
+                              <div class="game-tags">
+                                  <span class="badge bg-primary">RPG</span>
+                                  <span class="badge bg-danger">+18</span>
+                                  <span class="badge bg-success">Multiplayer</span>
+                              </div>
+                              <a href="#" class="btn btn-outline-light btn-comprar">Obtener</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-dark text-white">
+                      <img src="../../images/tlou2-remastered.jpeg" class="card-img-top  object-fit-cover h img-thumbnail" style="height: 300px;" alt="playstation-portada">
+                        <div class="card-body">
+                            <h5 class="card-title">The Last of Us Part II</h5>
+                            <p class="card-text">Cinco años después de su peligroso viaje, Ellie y Joel intentan llevar una vida en paz. Sin embargo, 
+                              un evento trágico desencadena una búsqueda implacable de justicia y venganza. Explora un mundo brutal, con una narrativa envolvente y mecánicas de sigilo y combate intensas.</p>
+                              <p class="fw-bold text-warning">S/ 213.90</p>
+                              <div class="card-footer d-flex justify-content-between align-items-center">
+                              <div class="game-tags">
+                                  <span class="badge bg-primary">RPG</span>
+                                  <span class="badge bg-danger">+18</span>
+                                  <span class="badge bg-success">Multiplayer</span>
+                              </div>
+                              <a href="#" class="btn btn-outline-light btn-comprar">Obtener</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-dark text-white h-100">
+                      <img src="../../images/spiderman-2.jpg" class="card-img-top  object-fit-cover h img-thumbnail" style="height: 300px;" alt="playstation-portada">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Spider-Man: Miles Morales</h5>
+                            <p class="card-text flex-grow-1">Una experiencia cinematográfica con acción trepidante y un mundo abierto vibrante.</p>
+                            <p class="fw-bold text-warning">S/ 228.90</p>
+                            <div class="card-footer d-flex justify-content-between align-items-center">
+                              <div class="game-tags">
+                                  <span class="badge bg-primary">RPG</span>
+                                  <span class="badge bg-danger">+18</span>
+                                  <span class="badge bg-success">Multiplayer</span>
+                              </div>
+                              <a href="#" class="btn btn-outline-light btn-comprar">Obtener</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ofertas" class="bundle-offers py-5 my-5">
+          <div class="container">
+              <h2 class="text-center text-light mb-4">🎮 Ofertas en Bundles de Juegos 🔥</h2>
+              <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                  
+                  <!-- Bundle 1 -->
+                  <div class="col-md-4 d-flex">
+                      <div class="card bg-dark text-light shadow-sm h-100">
+                          <img src="../../images/ps-mk11-injustice-bundle.jpg" class="card-img-top  object-fit-cover  img-thumbnail" style="height: 400px;" alt="Bundle Acción">
+                          <div class="card-body d-flex flex-column">
+                              <h5 class="card-title">Pack Acción Épica</h5>
+                              <p class="card-text flex-grow-1">Sumérgete en intensas batallas con este pack exclusivo.</p>
+                              <p class="fw-bold text-warning">S/ 249.90</p>
+                              <div class="card-footer d-flex justify-content-between align-items-center">
+                                <div class="game-tags">
+                                    <span class="badge bg-primary">RPG</span>
+                                    <span class="badge bg-danger">+18</span>
+                                    <span class="badge bg-success">Multiplayer</span>
+                                </div>
+                                <a href="#" class="btn btn-outline-light btn-comprar">¡Lo Quiero!</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <!-- Bundle 2 -->
+                  <div class="col-md-4 d-flex">
+                      <div class="card bg-dark text-light shadow-sm h-100">
+                          <img src="../../images/ps-uncharted-bundle-legado-ladrones.jpg" class="card-img-top  object-fit-cover  img-thumbnail" style="height: 400px;" alt="Bundle RPG">
+                          <div class="card-body d-flex flex-column">
+                              <h5 class="card-title">Pack Aventuras RPG</h5>
+                              <p class="card-text flex-grow-1">Explora mundos increíbles y vive historias inolvidables.</p>
+                              <p class="fw-bold text-warning">S/ 199.90</p>
+                              <div class="card-footer d-flex justify-content-between align-items-center">
+                                <div class="game-tags">
+                                    <span class="badge bg-primary">RPG</span>
+                                    <span class="badge bg-danger">+18</span>
+                                    <span class="badge bg-success">Multiplayer</span>
+                                </div>
+                                <a href="#" class="btn btn-outline-light btn-comprar">¡Lo Quiero!</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <!-- Bundle 3 -->
+                  <div class="col-md-4 d-flex">
+                      <div class="card bg-dark text-light shadow-sm h-100">
+                          <img src="../../images/ps-bundle-deporte-aventuras.jpg" class="card-img-top  object-fit-cover  img-thumbnail" style="height: 400px;" alt="Bundle Deportes">
+                          <div class="card-body d-flex flex-column">
+                              <h5 class="card-title">Pack Deportes</h5>
+                              <p class="card-text flex-grow-1">Disfruta la emoción del fútbol, baloncesto y más.</p>
+                              <p class="fw-bold text-warning">S/ 179.90</p>
+                              <div class="card-footer d-flex justify-content-between align-items-center">
+                                <div class="game-tags">
+                                    <span class="badge bg-primary">RPG</span>
+                                    <span class="badge bg-danger">+18</span>
+                                    <span class="badge bg-success">Multiplayer</span>
+                                </div>
+                                <a href="#" class="btn btn-outline-light btn-comprar">¡Lo Quiero!</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  
+              </div>
+          </div>
+        </section>
+
+          <!-- SECCIÓN ACCIÓN-->
+      <section  class="container my-5">
+        <hr id="accion" class="d-flex w-75 mx-auto  py-5">
+        <h2 class="text-center text-light mb-4">🎮 Acción 🔥</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            
+            <div class="col-md-4 d-flex">
+                <div class="card bg-dark text-light border-secondary h-100">
+                    <img src="../../images/spiderman-2.jpg" class="card-img-top  object-fit-cover  img-thumbnail" style="height: 300px;" alt="Spider-Man">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Spider-Man: Miles Morales</h5>
+                        <p class="card-text flex-grow-1">Una experiencia cinematográfica con acción trepidante y un mundo abierto vibrante.</p>
+                        <p class="fw-bold text-warning">S/ 228.90</p>
+                        <div class="card-footer d-flex justify-content-between align-items-center">
+                          <div class="game-tags">
+                              <span class="badge bg-primary">RPG</span>
+                              <span class="badge bg-danger">+18</span>
+                              <span class="badge bg-success">Multiplayer</span>
+                          </div>
+                          <a href="#" class="btn btn-outline-light btn-comprar">Obtener</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      
+            <div class="col-md-4 d-flex">
+                <div class="card bg-dark text-light border-secondary h-100">
+                    <img src="../../images/ps-uncharted-4-a-thiefs-end.jpg" class="card-img-top  object-fit-cover  img-thumbnail" style="height: 300px;" alt="Uncharted">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Uncharted 4: A Thief's End</h5>
+                        <p class="card-text flex-grow-1">Acompaña a Nathan Drake en su última aventura llena de misterio y acción.</p>
+                        <p class="fw-bold text-warning">S/ 189.90</p>
+                        <div class="card-footer d-flex justify-content-between align-items-center">
+                          <div class="game-tags">
+                              <span class="badge bg-primary">RPG</span>
+                              <span class="badge bg-danger">+18</span>
+                              <span class="badge bg-success">Multiplayer</span>
+                          </div>
+                          <a href="#" class="btn btn-outline-light btn-comprar">Obtener</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      
+            <div class="col-md-4 d-flex">
+                <div class="card bg-dark text-light border-secondary h-100">
+                    <img src="../../images/god-of-war-ragnarok.jpg" class="card-img-top  object-fit-cover  img-thumbnail" style="height: 300px;" alt="God of War">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">God of War</h5>
+                        <p class="card-text flex-grow-1">Un viaje épico junto a Kratos y Atreus en la mitología nórdica.</p>
+                        <p class="fw-bold text-warning">S/ 152.90</p>
+                        <div class="card-footer d-flex justify-content-between align-items-center">
+                          <div class="game-tags">
+                              <span class="badge bg-primary">RPG</span>
+                              <span class="badge bg-danger">+18</span>
+                              <span class="badge bg-success">Multiplayer</span>
+                          </div>
+                          <a href="#" class="btn btn-outline-light btn-comprar">Obtener</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      
+        </div>
+      </section>
+
+          <!-- SECCIÓN AVENTURA RPG-->
+      <section class="container my-5">
+        <h2 class="text-center text-light mb-4">🎮 Aventura - RPG 🔥</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            
+            <div class="col-md-4 d-flex">
+                <div class="card bg-dark text-light border-secondary h-100">
+                    <img src="../../images/ps-the-witcher-3-complete-edition.jpg" class="card-img-top  object-fit-cover  img-thumbnail" style="height: 300px;" alt="Spider-Man">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">The Witcher 3: Wild Hunt - Complete Edition</h5>
+                        <p class="card-text flex-grow-1">Embárcate en una épica aventura como Geralt de Rivia, un cazador de monstruos en busca de su hija perdida. 
+                          Explora un vasto mundo abierto, enfréntate a criaturas legendarias y toma decisiones que cambiarán el destino del reino.</p>
+                          <p class="fw-bold text-warning">S/ 85.90</p>
+                        <div class="card-footer d-flex justify-content-between align-items-center">
+                          <div class="game-tags">
+                              <span class="badge bg-primary">RPG</span>
+                              <span class="badge bg-danger">+18</span>
+                              <span class="badge bg-success">Multiplayer</span>
+                          </div>
+                          <a href="#" class="btn btn-outline-light btn-comprar">Obtener</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      
+            <div class="col-md-4 d-flex">
+                <div class="card bg-dark text-light border-secondary h-100">
+                    <img src="../../images/elder-ring.jpg" class="card-img-top  object-fit-cover  img-thumbnail" style="height: 300px;" alt="Uncharted">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Elden Ring</h5>
+                        <p class="card-text flex-grow-1">Descubre el vasto y peligroso mundo de las Tierras Intermedias en esta obra maestra de FromSoftware. 
+                          Con combates desafiantes, jefes imponentes y una historia llena de misterio, Elden Ring es una experiencia RPG inolvidable.</p>
+                          <p class="fw-bold text-warning">S/ 215.90</p>
+                        <div class="card-footer d-flex justify-content-between align-items-center">
+                          <div class="game-tags">
+                              <span class="badge bg-primary">RPG</span>
+                              <span class="badge bg-danger">+18</span>
+                              <span class="badge bg-success">Multiplayer</span>
+                          </div>
+                          <a href="#" class="btn btn-outline-light btn-comprar">Obtener</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      
+            <div class="col-md-4 d-flex">
+                <div class="card bg-dark text-light border-secondary h-100">
+                    <img src="../../images/ps-horizon-forbidden-west.jpg" class="card-img-top  object-fit-cover  img-thumbnail" style="height: 300px;" alt="God of War">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Horizon Forbidden West</h5>
+                        <p class="card-text flex-grow-1">Acompaña a Aloy en su viaje a tierras desconocidas para enfrentar nuevas amenazas mecánicas y descubrir los misterios de una civilización perdida. 
+                          Con un mundo vibrante y un combate mejorado, esta aventura es imprescindible.</p>
+                          <p class="fw-bold text-warning">S/ 220.90</p>
+                        <div class="card-footer d-flex justify-content-between align-items-center">
+                          <div class="game-tags">
+                              <span class="badge bg-primary">RPG</span>
+                              <span class="badge bg-danger">+18</span>
+                              <span class="badge bg-success">Multiplayer</span>
+                          </div>
+                          <a href="#" class="btn btn-outline-light btn-comprar">Obtener</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      
+        </div>
+      </section>
+
+
+         <!-- SECCIÓN DEPORTE -->
+      <section class="container my-5">
+        <h2 class="text-center text-light mb-4">🎮 Deportes 🔥</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            
+            <div class="col-md-4 d-flex">
+                <div class="card bg-dark text-light border-secondary h-100">
+                    <img src="../../images/ps-ea-fc24.jpg" class="card-img-top  object-fit-cover  img-thumbnail" style="height: 300px;" alt="Spider-Man">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">EA Sports FC 24</h5>
+                        <p class="card-text flex-grow-1">Vive el fútbol como nunca antes con FIFA 23. Disfruta de gráficos mejorados, 
+                          física realista y modos de juego envolventes, incluyendo el renovado Modo Carrera y el emocionante Ultimate Team.</p>
+                          <p class="fw-bold text-warning">S/ 217.90</p>
+                        <div class="card-footer d-flex justify-content-between align-items-center">
+                          <div class="game-tags">
+                              <span class="badge bg-primary">RPG</span>
+                              <span class="badge bg-danger">+18</span>
+                              <span class="badge bg-success">Multiplayer</span>
+                          </div>
+                          <a href="#" class="btn btn-outline-light btn-comprar">Obtener</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      
+            <div class="col-md-4 d-flex">
+                <div class="card bg-dark text-light border-secondary h-100">
+                    <img src="../../images/ps-nba2k24.jpg" class="card-img-top  object-fit-cover  img-thumbnail" style="height: 300px;" alt="Uncharted">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">NBA 2K24</h5>
+                        <p class="card-text flex-grow-1">Siente la intensidad del baloncesto con NBA 2K24. Con gráficos de nueva generación y mecánicas mejoradas, 
+                          compite en partidos llenos de acción con tus equipos y jugadores favoritos.</p>
+                          <p class="fw-bold text-warning">S/ 187.90</p>
+                        <div class="card-footer d-flex justify-content-between align-items-center">
+                          <div class="game-tags">
+                              <span class="badge bg-primary">RPG</span>
+                              <span class="badge bg-danger">+18</span>
+                              <span class="badge bg-success">Multiplayer</span>
+                          </div>
+                          <a href="#" class="btn btn-outline-light btn-comprar">Obtener</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      
+            <div class="col-md-4 d-flex">
+                <div class="card bg-dark text-light border-secondary h-100">
+                    <img src="../../images/ps-tony-hawks-pro-skater-1+2.jpg" class="card-img-top  object-fit-cover  img-thumbnail" style="height: 300px;" alt="God of War">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Tony Hawk’s Pro Skater 1+2</h5>
+                        <p class="card-text flex-grow-1">Domina los trucos más extremos en este clásico del skateboarding. 
+                          Con gráficos remasterizados y un gameplay adictivo, siente la nostalgia y desafía a tus amigos en partidas épicas.</p>
+                          <p class="fw-bold text-warning">S/ 155.90</p>
+                        <div class="card-footer d-flex justify-content-between align-items-center">
+                          <div class="game-tags">
+                              <span class="badge bg-primary">RPG</span>
+                              <span class="badge bg-danger">+18</span>
+                              <span class="badge bg-success">Multiplayer</span>
+                          </div>
+                          <a href="#" class="btn btn-outline-light btn-comprar">Obtener</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      
+        </div>
+      </section>
+      
+
+
+
+
+    </main>
+    
+
+        <!-- ***********************-->
+        <!--        FOOTER          -->
+        <!-- ***********************-->
+
+       <!-- Remove the container if you want to extend the Footer to full width. -->
+       <div class="container-fluid m-0 p-0">
+        <!-- Footer -->
+        <footer class="text-center text-white footer-fondo" style="background-color: #3f51b5">
+          <!-- Grid container -->
+          <div class="container">
+            <!-- Section: Links -->
+            <section class="mt-5">
+              <!-- Grid row-->
+              <div class="row text-center d-flex justify-content-center pt-5">
+                <!-- Grid column -->
+                <div class="col-md-2">
+                  <h6 class=" font-weight-bold">
+                    <a href="../../index.html" class="text-white">NOSOTROS</a>
+                  </h6>
+                </div>
+                <!-- Grid column -->
+      
+                <!-- Grid column -->
+                <div class="col-md-2">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a href="../../ofertas/index.html" class="text-white">PRODUCTOS</a>
+                  </h6>
+                </div>
+                <!-- Grid column -->
+      
+                <!-- Grid column -->
+                <div class="col-md-2">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a href="../../contacto/index.html#awards" class="text-white">COMENTARIOS</a>
+                  </h6>
+                </div>
+                <!-- Grid column -->
+      
+                <!-- Grid column -->
+                <div class="col-md-2">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a href="../../contacto/index.html#help" class="text-white">AYUDA</a>
+                  </h6>
+                </div>
+                <!-- Grid column -->
+      
+                <!-- Grid column -->
+                <div class="col-md-2">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a href="../../contacto/index.html" class="text-white">CONTACTO</a>
+                  </h6>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row-->
+            </section>
+            <!-- Section: Links -->
+      
+            <hr class="my-5" />
+      
+            <!-- Section: Text -->
+            <section class="mb-5">
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                  <p>
+                    Loco Juegos – Tu tienda online de videojuegos. Explora un catálogo completo 
+                    con los mejores títulos para PlayStation, Xbox, Nintendo y PC. Ofertas irresistibles, 
+                    novedades de la industria y un servicio confiable. ¡Vive tu pasión por los videojuegos con nosotros!
+                    
+                  </p>
+                </div>
+              </div>
+            </section>
+            <!-- Section: Text -->
+          </div>
+          <!-- Grid container -->
+
+          <!-- Redes Sociales -->
+          <div class="text-center mt-4">
+              <a href="https://facebook.com" target="_blank" class="mx-2"><i class="bi bi-facebook"></i></a>
+              <a href="https://wa.me/tu_numero" target="_blank" class="mx-2"><i class="bi bi-whatsapp"></i></a>
+              <a href="https://discord.com" target="_blank" class="mx-2"><i class="bi bi-discord"></i></a>
+              <a href="https://instagram.com" target="_blank" class="mx-2"><i class="bi bi-instagram"></i></a>
+              <a href="https://youtube.com" target="_blank" class="mx-2"><i class="bi bi-youtube"></i></a>
+          </div>
+      
+          <!-- Copyright -->
+          <div class="text-center p-3 mt-4" style="background-color: rgba(0, 0, 0, 0.2)">   
+            © 2025 Copyright:
+            <a class="text-white" href="../../index.html"
+               >Loco_Juegos.com</a
+              >
+          </div>
+          <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+      </div>
+      <!-- End of .container -->
+      
+      <!-- Modal open -->
+        <!-- Modal Bootstrap -->
+        <div class="modal fade" id="compraModal" tabindex="-1" aria-hidden="true" >
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title">¡Sólo falta un paso más!</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                  </div>
+                  <div class="modal-body">
+                      <form id="formCompra">
+
+                          <div class="mb-3">
+                              <label for="nombre" class="form-label">Nombre y Apellidos</label>
+                              <input type="text" class="form-control" placeholder="Nombre completo"  id="name" required>
+                          </div>
+                          <div class="mb-3">
+                              <label for="correo" class="form-label">Correo Electrónico</label>
+                              <input type="email" class="form-control" placeholder="example@locojuegos.com" id="email" required>
+                          </div>
+                          <div class="mb-3">
+                            <label for="cantidad" class="form-label">Cantidad</label>
+                            <input type="number" class="form-control" id="cantidad" placeholder="0" min="1">
+                          </div>
+                  
+                      </form>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                      <button type="submit" class="btn btn-success" id="finalizarCompra">Finalizar Compra</button>
+                  </div>
+              </div>
+          </div>
+        </div>
+        
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>  
+    <script src="../../js/index.js"></script>
+</body>
+</html>
+
